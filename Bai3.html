@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+
+    document.write('Bài 3<br>');
+    let first = 0, second = 1, nextNum;
+    number = 20
+    document.write(number + ' số Fibonacci đầu tiên là: ');
+
+    for (let i = 1; i <= number; i++) {
+        document.write(first + ' ');
+        nextNum = first + second;
+        first = second;
+        second = nextNum;
+    }
+</script>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    document.write('Bài 6<br>');
+    document.write('tổng của 30 số tự nhiên chia hết cho 7 là: ');
+    let count = 0;
+    let index = 1;
+    let sum = 0;
+    while (count < 30) {
+        if (index % 7 == 0) {
+            sum += index;
+            count++;
+        }
+        index++;
+    }
+    document.write(sum);
+</script>
+
+</html>
